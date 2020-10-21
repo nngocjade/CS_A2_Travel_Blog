@@ -27,14 +27,17 @@ a {
 }
 
 .country_name {
- width: 100%;
- background-color: lightgray;
+  width: 100% - 4rem;
+  background-color: rgb(241, 240, 240);
   margin: 1rem 0;
   padding: 1rem 2rem;
-  color: rgb(102, 102, 102);
+  color: rgb(104, 103, 103);
+}
+
+.image_description {
+  margin: 0.5rem 2rem 2rem 2rem;
 }
 
 .images {
   width: 100%;
 }
-
