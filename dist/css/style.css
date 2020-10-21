@@ -2,10 +2,20 @@
 body {
   margin: 0 auto;
   font-family: "Commissioner", sans-serif;
+  line-height: 1.8rem;
+}
+
+header {
+  height: 20em;
 }
 
 h1 {
   text-align: center;
+}
+
+h3,
+h4 {
+  color: rgb(58, 58, 58);
 }
 
 h3,
@@ -26,7 +36,7 @@ a {
   margin-bottom: 2rem;
 }
 
-.country_name {
+h2.country_name {
   width: 100% - 4rem;
   background-color: rgb(241, 240, 240);
   margin: 1rem 0;
@@ -34,10 +44,37 @@ a {
   color: rgb(104, 103, 103);
 }
 
-.image_description {
-  margin: 0.5rem 2rem 2rem 2rem;
-}
-
 .images {
   width: 100%;
+}
+
+.image_description {
+  margin: 0.5rem 2rem 2rem 2rem;
+  color: rgb(180, 180, 180);
+  font-size: 0.8rem;
+  line-height: 0.5em;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    /* margin: 0 auto; */
+    width: 100vw;
+  }
+  .article_wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .country_name {
+    width: 100%;
+  }
 }
