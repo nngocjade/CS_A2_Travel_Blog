@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&display=swap");
 body {
   margin: 0 auto;
-  font-family: 'Commissioner', sans-serif;
+  font-family: "Commissioner", sans-serif;
 }
 
 h1 {
   text-align: center;
+}
+
+h3,
+h4,
+p,
+ul {
+  margin: 1rem 4rem;
 }
 
 a {
@@ -13,11 +20,21 @@ a {
   color: cadetblue;
 }
 
-.article_wrapper{
- width: fit-content;
- height: fit-content;
- margin-bottom: 2rem;
+.article_wrapper {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 2rem;
 }
+
+.country_name {
+ width: 100%;
+ background-color: lightgray;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  color: rgb(102, 102, 102);
+}
+
 .images {
   width: 100%;
 }
+
