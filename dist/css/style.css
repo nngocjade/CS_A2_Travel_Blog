@@ -1,7 +1,23 @@
-body{
- margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&display=swap');
+body {
+  margin: 0 auto;
+  font-family: 'Commissioner', sans-serif;
 }
 
-.images{
- width: 100%;
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.article_wrapper{
+ width: fit-content;
+ height: fit-content;
+ margin-bottom: 2rem;
+}
+.images {
+  width: 100%;
 }
