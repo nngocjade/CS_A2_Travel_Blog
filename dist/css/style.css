@@ -24,7 +24,7 @@ ul {
   margin: 1rem 4rem;
 }
 
-ul li{
+ul li {
   list-style-type: circle;
 }
 
@@ -52,10 +52,9 @@ header {
 }
 
 h1#main_title {
-  color: #8E9A32;
+  color: #8e9a32;
   font-size: 3rem;
   margin-top: 4rem;
-  
 }
 
 img#author_image {
@@ -64,14 +63,11 @@ img#author_image {
   opacity: 75%;
 }
 
-.author_name_date_wrapper{
+.author_name_date_wrapper {
   display: flex;
   align-items: center;
-  line-height: .7rem;
+  line-height: 0.7rem;
 }
-
-
-
 
 /* ========================================================
                         ARTICLE
@@ -79,15 +75,16 @@ img#author_image {
 .article_wrapper {
   width: fit-content;
   height: fit-content;
-  margin-bottom: 2rem;
+  padding: 1rem 0;
+
 }
 
 h2.country_name {
   width: 100% - 4em;
- background-color: rgb(237, 237, 237);
+  background-color: rgb(237, 237, 237);
   margin: 1rem 0;
   padding: 1rem 2rem;
-  color:  #8E9A32;
+  color: #8e9a32;
 }
 
 .images {
@@ -113,7 +110,7 @@ footer {
   left: 0;
   margin-top: auto 0;
   background-color: rgb(221, 221, 221);
-  color: #8E9A32;
+  color: #8e9a32;
   text-align: center;
   display: flex;
   align-items: center;
@@ -131,9 +128,6 @@ p#footer_p {
 ==========================================================*/
 
 @media only screen and (min-width: 768px) {
-  main{
-    position: relative;
-  }
   .article_wrapper {
     width: 70%;
     display: flex;
@@ -150,9 +144,23 @@ p#footer_p {
 
   h2.country_name {
     width: 20%;
-     border: 1px solid gray;
-  border-radius: 5em;
-  background-color: transparent;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 5em;
+    background-color: transparent;
+    position: relative;
   }
-  
+  h2.country_name:before,h2.country_name:after {
+    content: "";
+    width: 15em;
+    border-bottom: solid 3px rgb(219, 218, 218);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+  }
+  h2.country_name::before {
+    left: -15em;
+  }
+  h2.country_name::after {
+    right: -15em;
+  }
 }
