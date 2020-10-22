@@ -49,7 +49,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid rgb(219, 218, 218);
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.1),
       rgba(255, 255, 255, 0.1)
@@ -57,6 +56,10 @@ header {
     url("/dist/img/hero_image.JPG");
   background-size: cover;
   background-position-x: center;
+}
+
+header::before {
+  content: "";
 }
 
 header::after {
@@ -75,6 +78,64 @@ h1#main_title {
 h2#sub_title {
   color: #78803e96;
   margin: 0 0 2rem 0;
+}
+
+/* ========================================================
+                    NAVIGATION
+==========================================================*/
+.nav_wrapper {
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div#logo_wrapper {
+  width: 3em;
+  height: 3em;
+  border: 1px solid rgb(223, 222, 222);
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .5rem .5rem .5rem 1rem;
+}
+
+p#logo{
+  margin: 0 0 .4rem 0;
+  font-size: 2rem;
+ color: white;
+}
+
+.nav_links{
+  width: 12em;
+}
+
+.nav_links ul{
+  width: 5em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: .5rem 1rem .5rem .5rem;
+
+}
+.nav_links ul li{
+  padding: 1rem;
+  list-style-type: none;
+}
+.nav_links ul li a{
+   color: rgba(255, 255, 255, 0.685);
+}
+
+.nav_links ul li a:hover{
+   color: #78803e96;
 }
 
 /* ========================================================

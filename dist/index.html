@@ -9,6 +9,18 @@
 <body>
 <!-- HEADER -->
  <header>
+  <nav class="nav_wrapper">
+   <div id="logo_wrapper">
+    <p id="logo">J</p>
+   </div>
+   <div class="nav_links">
+    <ul>
+     <li><a href="#switzerland">Switzerland</a></li>
+     <li><a href="#italy">Italy</a></li>
+     <li><a href="#bali">Bali</a></li>
+    </ul>
+   </div>
+  </nav>
   <h1 id="main_title">Jade the Explorer,</h1>
   <h2 id="sub_title">she loves traveling.</h2>
  </header>
@@ -23,8 +35,8 @@
  <!-- MAIN ARTICLES -->
  <main>
   <!-- SWITZERLAND -->
-  <article id="switzerland" class="article_wrapper">
-   <h2 class="country_name">Switzerland</h2>
+  <article id="switzerland" class="article_wrapper" name="switzerland">
+   <h2 class="country_name"><a href="https://en.wikipedia.org/wiki/Switzerland" target="_blank">Switzerland</a></h2>
    <h3 class="country_description">A serene alpine region</h3>
    <p>I had the pleasure to visit Interlaken, a central town in the Jungfrau region of Switzerland that sits between two,
     crystal-clear, torqouise lakes and surrounded by countless summits. One in particular peak is Jungfraujoch, the top of Europe, surrounded by glaciers and eternal snow. </p>
@@ -32,7 +44,6 @@
     <img class="images" src="./img/hader_kulm.JPG" alt="top of Interlaken">
     <p class="image_description">View from Harder Kulm, top of Interlaken, Switzerland / photo by &#169; Jade</p>
    </div>
-   <!-- Contains at least 2 lists. (for e.g: bullet points for famous food in those cities) -->
    <h4>3 things Switzerland is famous for </h4>
    <ul>
     <li>The Swiss Army knife</li>
@@ -47,15 +58,14 @@
    </ul>
    </article>
    <!-- ITALY -->
-  <article id="italy" class="article_wrapper">
-   <h2 class="country_name">Italy</h2>
+  <article id="italy" class="article_wrapper" name="italy">
+   <h2 class="country_name"><a href="https://en.wikipedia.org/wiki/Italy" target="_blank">Italy</a></h2>
    <h3>the Amalfi Coast is a must visit</h3>
    <p>Around this time last year, I ventured to Italy and discovered the beauty of the Amalfi Coast. The tranquil beauty of seaside life left an unforgettable impression, to which I look foward to revisiting one day.</p>
    <div class="img_des_wrapper">
     <img class="images" src="./img/amalfi_italy.JPG" alt="seaside view of the amalfi coast">
     <p class="image_description">Seaside view of Amalfi, Italy / photo by &#169; Jade</p>
    </div>
-   <!-- Contains at least 2 lists. (for e.g: bullet points for famous food in those cities) -->
    <h4>3 things the Amalfi Coast is famous for </h4>
    <ul>
     <li>The production of limoncello liqueur</li>
@@ -70,8 +80,8 @@
    </ul>
    </article>
    <!-- BALI -->
-  <article id="bali" class="article_wrapper">
-   <h2 class="country_name">Bali</h2>
+  <article id="bali" class="article_wrapper" name="bali">
+   <h2 class="country_name"><a href="https://en.wikipedia.org/wiki/Bali" target="_blank">Bali</a></h2>
    <h3>The Land of the Gods</h3>
    <p>According to <i>Edira</i>, from <a href="https://theculturetrip.com/asia/indonesia/articles/10-reasons-why-you-should-visit-bali/">the culture trip</a>, "every Kind of Natural Beauty. Beyond stunning beaches and magical temples, Bali has virtually every kind of natural
    beauty. Glorious mountainous areas with lush greenery, scenic lakes, gorgeous waterfalls, iconic rice fields, flower
@@ -80,7 +90,6 @@
     <img class="images" src="./img/twin_waterfall_bali.JPG" alt="top of Interlaken">
     <p id="image_description" class="image_description">Twin Waterfall, Bali / photo by &#169; Jade</p>
    </div>
-   <!-- Contains at least 2 lists. (for e.g: bullet points for famous food in those cities) -->
    <h4>3 things Bali is famous for </h4>
    <ul>
     <li>Surfer's paradise</li>
@@ -93,11 +102,6 @@
     <li>Lush terraced rice fields</li>
     <li>Wonderful beaches, temples, and Balinese food</li>
    </ul>
-   <!-- Contains at least 3 images. -->
-   <!-- Contains at least 3 links (anchor tag) to websites about those cities (e.g Wikipedia?) -->
-   <!-- Uses at least 5 CSS id or class selector to change colors, size, align…of title, heading, paragraph, images -->
-   <!-- Contains no syntax errors or bad practices, and your code should be formatted correctly. -->
-   <!-- Make it as beautiful as you can. -->
   </article>
  </main>
  <footer>
