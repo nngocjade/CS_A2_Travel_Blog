@@ -97,7 +97,7 @@ h2#sub_title {
 div#logo_wrapper {
   width: 3em;
   height: 3em;
-  border: 1px solid rgb(223, 222, 222);
+  border: 1px solid rgb(214, 214, 214);
   border-radius: 50%;
   text-align: center;
   display: flex;
@@ -146,20 +146,22 @@ p#logo{
   height: fit-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   line-height: 0.7rem;
   background-color: white;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 img#author_image {
-  width: 13vmin;
+  width: 12vmin;
   border-radius: 50%;
   opacity: 75%;
-  margin: 2.5rem;
+  margin: 1rem;
 }
 p#author_name,
 p#article_date {
   margin-left: 0;
+  margin-right: 0;
 }
 
 p#article_date {
@@ -240,10 +242,6 @@ p#footer_p {
   h3,
   p {
     text-align: center;
-  }
-
-  img#author_image {
-    margin-left: 13vw;
   }
 
   p#article_date {
