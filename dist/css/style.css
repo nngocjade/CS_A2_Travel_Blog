@@ -30,7 +30,7 @@ a {
 
 main {
   margin-bottom: 5em;
-  width: 100vw;
+  width: 100%;
   height: fit-content;
 }
 
@@ -91,7 +91,7 @@ h2.country_name {
 
 footer {
   height: 75px;
-  width: 100vw;
+  width: 100%;
   position: relative;
   bottom: 0;
   left: 0;
