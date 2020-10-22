@@ -13,7 +13,7 @@ h1 {
 
 h3,
 h4 {
-  color: rgb(58, 58, 58);
+  color: #c2c98e;
 }
 
 h3,
@@ -23,9 +23,13 @@ ul {
   margin: 1rem 4rem;
 }
 
+ul li{
+  list-style-type: circle;
+}
+
 a {
   text-decoration: none;
-  color: cadetblue;
+  color: #c2c98e;
 }
 
 main {
@@ -46,15 +50,21 @@ header {
 }
 
 h1#main_title {
-  color: rgb(34, 92, 34);
+  color: #8E9A32;
   font-size: 3rem;
   margin-top: 4rem;
+  
 }
 
 img#author_image {
   width: 25vmin;
   border-radius: 50%;
   opacity: 75%;
+}
+
+p#author_name{
+  color:#c2c98e;
+  font-size: .8rem;
 }
 
 /* ========================================================
@@ -71,7 +81,7 @@ h2.country_name {
   background-color: rgb(241, 240, 240);
   margin: 1rem 0;
   padding: 1rem 2rem;
-  color: rgb(104, 103, 103);
+  color:  #8E9A32;
 }
 
 .images {
@@ -96,8 +106,8 @@ footer {
   bottom: 0;
   left: 0;
   margin-top: auto 0;
-  background-color: rgb(209, 208, 208);
-  color: gray;
+  background-color: rgb(221, 221, 221);
+  color: #8E9A32;
   text-align: center;
   display: flex;
   align-items: center;
@@ -107,6 +117,7 @@ footer {
 
 p#footer_p {
   margin: 0;
+  font-size: 0.8rem;
 }
 
 /* ========================================================
