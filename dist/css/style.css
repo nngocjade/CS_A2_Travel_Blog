@@ -5,6 +5,7 @@ body {
   line-height: 1.8rem;
   overflow-y: scroll;
   position: relative;
+  color: #373538;
 }
 
 h1 {
@@ -56,6 +57,11 @@ h1#main_title {
   
 }
 
+.author_name_date_wrapper{
+  display: flex;
+  align-items: center;
+}
+
 img#author_image {
   width: 25vmin;
   border-radius: 50%;
@@ -63,8 +69,7 @@ img#author_image {
 }
 
 p#author_name{
-  color:#c2c98e;
-  font-size: .8rem;
+ 
 }
 
 /* ========================================================
